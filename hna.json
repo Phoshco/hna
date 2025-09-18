@@ -16,7 +16,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Armand",
         "image": "hna/HNA/Armand.png",
         "pmx": "Armand.pmx"
@@ -27,7 +27,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Blade",
         "image": "hna/HNA/Blade.png",
         "pmx": "Blade.pmx"
@@ -38,7 +38,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Cassio Rollex",
         "image": "hna/HNA/Cassio Rollex.png",
         "pmx": "Cassio Rollex.pmx"
@@ -49,7 +49,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Hua",
         "image": "hna/HNA/Hua.png",
         "pmx": "Hua.pmx"
@@ -60,7 +60,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Hungrille",
         "image": "hna/HNA/Hungrille.png",
         "pmx": "Hungrille.pmx"
@@ -71,7 +71,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Jalily Belau",
         "image": "hna/HNA/Jalily Belau.png",
         "pmx": "Jalily Belau.pmx"
@@ -82,7 +82,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Kiana",
         "image": "hna/HNA/Kiana.png",
         "pmx": "Kiana.pmx"
@@ -93,7 +93,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Kumyo Kyo",
         "image": "hna/HNA/Kumyo Kyo.png",
         "pmx": "Kumyo Kyo.pmx"
@@ -104,7 +104,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Maple Manybell",
         "image": "hna/HNA/Maple Manybell.png",
         "pmx": "Maple Manybell.pmx"
@@ -115,7 +115,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Parayaya, the Sovereign of Love and Hate",
         "image": "hna/HNA/Parayaya, the Sovereign of Love and Hate.png",
         "pmx": "Parayaya, the Sovereign of Love and Hate.pmx"
@@ -126,7 +126,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Female",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Prabhas",
         "image": "hna/HNA/Prabhas.png",
         "pmx": "Prabhas.pmx"
@@ -137,7 +137,7 @@
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 5,
         "directory": "hna/chars/Sir Champion",
         "image": "hna/HNA/Sir Champion.png",
         "pmx": "Sir Champion.pmx"
