@@ -1,0 +1,54 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 4611686018427387904,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {},
+    "m_Ints": {},
+    "m_Floats": {
+      "_BumpScale": 1.0,
+      "_CullMode": 2.0,
+      "_Cutoff": 0.5,
+      "_DetailNormalMapScale": 1.0,
+      "_DstBlend": 0.0,
+      "_GlossMapScale": 1.0,
+      "_Glossiness": 0.5,
+      "_GlossyReflections": 1.0,
+      "_Metallic": 0.0,
+      "_Mode": 0.0,
+      "_OcclusionStrength": 1.0,
+      "_Parallax": 0.02,
+      "_SmoothnessTextureChannel": 0.0,
+      "_SpecularHighlights": 1.0,
+      "_SrcBlend": 1.0,
+      "_StencilRef": 65.0,
+      "_UVSec": 0.0,
+      "_ZWrite": 1.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 0.6784314,
+        "g": 0.7019608,
+        "b": 0.8018868,
+        "a": 0.7647059
+      },
+      "_EmissionColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_MainColor": {
+        "r": 0.03773582,
+        "g": 0.03773582,
+        "b": 0.03773582,
+        "a": 0.8156863
+      }
+    }
+  },
+  "m_Name": "Mat_Avatar_Common_Face_Mask_S_Opaque",
+  "Name": "Mat_Avatar_Common_Face_Mask_S_Opaque"
+}

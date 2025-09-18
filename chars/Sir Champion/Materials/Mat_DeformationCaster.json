@@ -1,0 +1,97 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 4611686018427387904,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": {},
+    "m_Floats": {
+      "_AlphaClipGrp": 0.0,
+      "_CullMode": 2.0,
+      "_Cutoff": 0.5,
+      "_DebugGrp": 0.0,
+      "_DebugMetallic": 0.0,
+      "_DebugRoughness": 1.0,
+      "_DefaultMetallicWithoutTex": 0.0,
+      "_DitherAlpha": 1.0,
+      "_DitherGrp": 0.0,
+      "_EmissionGrp": 0.0,
+      "_EmissionStrength": 1.0,
+      "_EmissionTintMode": 0.0,
+      "_EnableBloomCut": 0.0,
+      "_EnableEmissionIntensityControlledByES": 1.0,
+      "_EnableGlobalUV": 0.0,
+      "_EnableSSR": 0.0,
+      "_GlobalUVBlendContrast": 1.0,
+      "_GlobalUVMode": 0.0,
+      "_GlobalUVRotation": 0.0,
+      "_GlobalUVTilling": 1.0,
+      "_IsLodSwitching": 0.0,
+      "_LOD": 0.0,
+      "_MainSettingGrp": 0.0,
+      "_MainTextureGrp": 0.0,
+      "_MetallicFallBack": 0.0,
+      "_MetallicScale": 1.0,
+      "_MicsGrp": 0.0,
+      "_NormalScale": 1.0,
+      "_POMGrp": 0.0,
+      "_POMHeight": 0.0,
+      "_POMMaxSlice": 15.0,
+      "_POMMinSlice": 1.0,
+      "_POMOffset": 0.0,
+      "_PolygonOffsetFactor": 0.0,
+      "_PolygonOffsetUnit": 0.0,
+      "_ProceduralRoadGrp": 0.0,
+      "_ReflectionGrp": 0.0,
+      "_RoughnessScale": 1.0,
+      "_ShadowOffsetFactor": 3.0,
+      "_ShadowOffsetUnit": 3.0,
+      "_TerrainBlendingFade": 1.0,
+      "_TerrainBlendingGrp": 0.0,
+      "_TerrainBlendingLength": 0.0,
+      "_UseQTangent": 0.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_DebugAlbedo": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_EmissionTintColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Mat_DeformationCaster",
+  "Name": "Mat_DeformationCaster"
+}
