@@ -109,6 +109,28 @@
         "image": "hna/HNA/Maple Manybell.png",
         "pmx": "Maple Manybell.pmx"
     },
+	{
+        "id": 50000011,
+        "name": "Nanafey",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 4,
+        "directory": "hna/chars/Nanafey",
+        "image": "hna/HNA/Nanafey.png",
+        "pmx": "Nanafey.pmx"
+    },
+	{
+        "id": 50000012,
+        "name": "Parayaya",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Parayaya",
+        "image": "hna/HNA/Parayaya.png",
+        "pmx": "Parayaya.pmx"
+    },
     {
         "id": 50000013,
         "name": "Parayaya, the Sovereign of Love and Hate",
