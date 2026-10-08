@@ -165,6 +165,50 @@
         "pmx": "Sir Champion.pmx"
     },
 	{
+        "id": 50000016,
+        "name": "Gloria",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Gloria",
+        "image": "hna/HNA/Gloria.png",
+        "pmx": "Gloria.pmx"
+    },
+	{
+        "id": 50000017,
+        "name": "Juelle",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Juelle",
+        "image": "hna/HNA/Juelle.png",
+        "pmx": "Juelle.pmx"
+    },
+	{
+        "id": 50000018,
+        "name": "Hyperius",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "hna/chars/Hyperius",
+        "image": "hna/HNA/Hyperius.png",
+        "pmx": "Hyperius.pmx"
+    },
+	{
+        "id": 50000019,
+        "name": "Louis Fleming Y",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Louis Fleming Y",
+        "image": "hna/HNA/Louis Fleming Y.png",
+        "pmx": "Louis Fleming Y.pmx"
+    },
+	{
         "id": 5000001,
         "name": "Breadhead",
         "weaponType": "Universal",

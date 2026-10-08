@@ -1,0 +1,129 @@
+{
+  "m_Shader": {
+    "m_FileID": 7,
+    "m_PathID": 4611686018427387905,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {
+      "_MTMap": {
+        "m_Texture": {
+          "m_FileID": 8,
+          "m_PathID": 100,
+          "Name": "VFX_Matcap_test",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MainTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 119,
+          "Name": "Tex_Avatar_222_00_EyeHighlight_Color",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_ReflectionCube": {
+        "m_Texture": {
+          "m_FileID": 9,
+          "m_PathID": 100,
+          "Name": "",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_SpecRampTex": {
+        "m_Texture": {
+          "m_FileID": 10,
+          "m_PathID": 100,
+          "Name": "Tex_Avatar_222_00_EyeHighLight_Ramp",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      }
+    },
+    "m_Ints": {},
+    "m_Floats": {
+      "_DitherAlpha": 1.0,
+      "_EnableSceneShadowReceive": 1.0,
+      "_EyeHighlightIntensity": 1.0,
+      "_EyeMaskStencilComp": 8.0,
+      "_EyeMaskStencilOp": 2.0,
+      "_EyeballGrp": 1.0,
+      "_FragmentClipGrp": 0.0,
+      "_MatcapColorIntensity": 0.5,
+      "_MatcapSize": 0.5,
+      "_OneMinusGlobalColorScale": 0.0,
+      "_RampIntensity": 1.0,
+      "_ReflRoughness": 0.1,
+      "_ReflectionCubeIntensity": 10.0,
+      "_RenderSettingGrp": 0.0,
+      "_StencilEye": 66.0,
+      "_UsingDitherAlpha": 0.0
+    },
+    "m_Colors": {
+      "_CustomLightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_CustomLightDir": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_MatcapColor": {
+        "r": 0.69803923,
+        "g": 0.69803923,
+        "b": 0.69803923,
+        "a": 1.0
+      },
+      "_ReflectionCubeColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_SpecularColor0": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Mat_Avatar_222_00_Eyelights_D_Trans",
+  "Name": "Mat_Avatar_222_00_Eyelights_D_Trans"
+}

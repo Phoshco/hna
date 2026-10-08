@@ -1,0 +1,33 @@
+{
+  "m_Shader": {
+    "m_FileID": 1,
+    "m_PathID": 4611686018427387904,
+    "Name": "",
+    "IsNull": false
+  },
+  "m_SavedProperties": {
+    "m_TexEnvs": {},
+    "m_Ints": {},
+    "m_Floats": {
+      "_BlendOPEnum": 3.0,
+      "_DitherAlpha": 1.0,
+      "_DstBlend": 0.0,
+      "_FragmentClipGrp": 0.0,
+      "_RenderSettingGrp": 0.0,
+      "_SrcBlend": 2.0,
+      "_StencilEye": 66.0,
+      "_StencilRef": 65.0,
+      "_UsingDitherAlpha": 0.0
+    },
+    "m_Colors": {
+      "_Color": {
+        "r": 0.8021715,
+        "g": 0.760444,
+        "b": 0.90099996,
+        "a": 1.0
+      }
+    }
+  },
+  "m_Name": "Mat_Avatar_Common_Eye_Mask_S_Oqaque_M",
+  "Name": "Mat_Avatar_Common_Eye_Mask_S_Oqaque_M"
+}

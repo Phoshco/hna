@@ -1,13 +1,13 @@
 {
   "m_Shader": {
-    "m_FileID": 1,
-    "m_PathID": 4611686018427387904,
+    "m_FileID": 3,
+    "m_PathID": 4611686018427387905,
     "Name": "",
     "IsNull": false
   },
   "m_SavedProperties": {
     "m_TexEnvs": {
-      "_DetailTex": {
+      "_AdvancedNoiseTex": {
         "m_Texture": {
           "m_FileID": 0,
           "m_PathID": 0,
@@ -23,12 +23,44 @@
           "Y": 0.0
         }
       },
-      "_DiffuseRampTex": {
+      "_AdvancedToggleMask": {
         "m_Texture": {
-          "m_FileID": 2,
-          "m_PathID": 4611686018427387904,
-          "Name": "Tex_Avatar_222_00_Body_Ramp",
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DSRampTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 111,
+          "Name": "Tex_Avatar_222_00_Weapon_00_Opaque_Ramp",
           "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_DetailTex": {
+        "m_Texture": {
+          "m_FileID": 0,
+          "m_PathID": 0,
+          "Name": "",
+          "IsNull": true
         },
         "m_Scale": {
           "X": 1.0,
@@ -55,7 +87,7 @@
           "Y": 0.0
         }
       },
-      "_GlintMask": {
+      "_FlowMapTex": {
         "m_Texture": {
           "m_FileID": 0,
           "m_PathID": 0,
@@ -73,9 +105,9 @@
       },
       "_LightMap": {
         "m_Texture": {
-          "m_FileID": 0,
-          "m_PathID": 758,
-          "Name": "Tex_Avatar_222_00_Weapon_LightMap",
+          "m_FileID": 11,
+          "m_PathID": 100,
+          "Name": "Tex_Avatar_222_00_Weapon_00_LightMap",
           "IsNull": false
         },
         "m_Scale": {
@@ -105,9 +137,25 @@
       },
       "_MainTex": {
         "m_Texture": {
+          "m_FileID": 11,
+          "m_PathID": 101,
+          "Name": "Tex_Avatar_222_00_Weapon_00_Color",
+          "IsNull": false
+        },
+        "m_Scale": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "m_Offset": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "_MaterialParamsLut": {
+        "m_Texture": {
           "m_FileID": 0,
-          "m_PathID": 755,
-          "Name": "Tex_Avatar_222_00_Weapon_Color",
+          "m_PathID": 112,
+          "Name": "Tex_Avatar_222_00_Weapon_00_S_Opaque_Params_Lut",
           "IsNull": false
         },
         "m_Scale": {
@@ -171,44 +219,101 @@
     "m_Ints": {},
     "m_Floats": {
       "_AdvancedGrp": 0.0,
+      "_AdvancedNoiseIntensity": 0.0,
+      "_AdvancedNoiseIntensityAll": 0.0,
+      "_AdvancedNoiseTexBrightness": 0.0,
+      "_AdvancedNoiseTexChannel": 1.0,
       "_AmbientGroup": 0.0,
+      "_AmbientLevel": 0.0,
       "_AmbientOffset": 0.0,
       "_AmbientSmooth": 0.5,
+      "_AnisoFesMask": 1.0,
+      "_AnisoPow": 100.0,
+      "_AnisoSmoothness": 1.0,
       "_BackUse2U": 0.0,
       "_BloomGrp": 0.0,
-      "_BumpScale": 1.0,
       "_CharaBrightness": 1.0,
       "_CharaContrast": 1.0,
       "_CharaHeight": 1.8,
       "_CharaHeightOffset": 0.0,
       "_CharaSaturation": 1.0,
+      "_CharacterRainBaseColorOffset": 0.0,
+      "_CharacterRainBaseWetness": 0.0,
+      "_CharacterRainBrightDropBlend": 1.726,
+      "_CharacterRainBrightDropBlend0": 2.0,
+      "_CharacterRainBrightDropBlend1": 2.0,
+      "_CharacterRainBrightDropBlend2": 2.0,
+      "_CharacterRainBrightDropBlend3": 2.0,
+      "_CharacterRainBrightDropBlend4": 2.0,
+      "_CharacterRainBrightDropBlend5": 2.0,
+      "_CharacterRainBrightDropBlend6": 2.0,
+      "_CharacterRainBrightDropBlend7": 2.0,
+      "_CharacterRainBrightDropDensity": 0.4,
+      "_CharacterRainColorOffset0": 0.0,
+      "_CharacterRainColorOffset1": 0.0,
+      "_CharacterRainColorOffset2": 0.0,
+      "_CharacterRainColorOffset3": 0.0,
+      "_CharacterRainColorOffset4": 0.0,
+      "_CharacterRainColorOffset5": 0.0,
+      "_CharacterRainColorOffset6": 0.0,
+      "_CharacterRainColorOffset7": 0.0,
+      "_CharacterRainGroup": 0.0,
+      "_CharacterRainHeightReference": 0.0,
+      "_CharacterRainHeightWetness": 0.0,
+      "_CharacterRainImpermeableColorOffset": -0.2,
+      "_CharacterRainLightmapGMask": 0.0,
+      "_CharacterRainMatcapBacklightDarken": 0.5,
+      "_CharacterRainMatcapIntensity": 0.5,
+      "_CharacterRainMatcapNormalStrength": 1.2,
+      "_CharacterRainPorousColorOffset": -0.25,
+      "_CharacterRainProjectionTiling": 3.5,
+      "_CharacterRainSecondaryWetness": 0.0,
+      "_CharacterRainUseMaterialIDControls": 0.0,
       "_ChararDynBoundHeight": 0.0,
       "_ColorGradingGrp": 0.0,
-      "_CompressedNormalTangent": 0.0,
       "_CullMode": 2.0,
       "_CustomDiffuseThreshold": 1.0,
       "_CustomSpecularThreshold": 0.0,
-      "_Cutoff": 0.5,
-      "_DetailNormalMapScale": 1.0,
-      "_DiffuseGrp": 0.0,
-      "_DisableSelfShadow": 1.0,
+      "_DisableOutlineLighting": 0.0,
+      "_DisableOutlineScale": 0.0,
       "_DissolveBlendType": 1.0,
       "_DissolveDirToOrigin": 0.0,
+      "_DissolveDirectionMode": 0.0,
       "_DissolveEdgeRange1": 0.0,
       "_DissolveEdgeSmooth1": 0.1,
       "_DissolveNoiseIntensity": 0.0,
       "_DissolveRange": 0.0,
+      "_DissolveScrPosRatioLock": 0.0,
+      "_DissolveScrPosScale": 1.0,
+      "_DissolveScrPosTex": 1.0,
+      "_DissolveScrPosXYOffset": 1.0,
       "_DissolveUVMode": 0.0,
       "_DitherAlpha": 1.0,
-      "_DstBlend": 0.0,
+      "_DrakenEdgeSoftness": 1.0,
       "_EmissionGrp": 0.0,
       "_EmissionIntensity": 0.0,
-      "_EmissionThreshold": 1.0,
+      "_EmissionThreshold": 0.99,
+      "_EnableAddLight": 0.0,
       "_EnableDetailMap": 0.0,
       "_EnableDissolve": 0.0,
+      "_EnableEmission": 0.0,
+      "_EnableSceneShadowReceive": 1.0,
+      "_EnableSelfShadow": 0.0,
       "_EnableStocking": 0.0,
+      "_EnableVFXDissolve": 0.0,
       "_EnbaleDissolveOverrideColor": 0.0,
+      "_FlowMapEffectDissolveTex": 0.0,
+      "_FlowMapEffectMainTex": 1.0,
+      "_FlowMapIntensity": 1.0,
+      "_FlowMapMode": 2.0,
+      "_FlowMapScrPosRatioLock": 0.0,
+      "_FlowMapScrPosScale": 1.0,
+      "_FlowMapScrPosTex": 1.0,
+      "_FlowMapScrPosXYOffset": 1.0,
+      "_FlowMapSpeed": 0.1,
+      "_FlowMapUVMode": 1.0,
       "_FragmentClipGrp": 0.0,
+      "_FresnelRimCovered": 0.0,
       "_FresnelRimSmooth0": 0.001,
       "_FresnelRimSmooth1": 0.001,
       "_FresnelRimSmooth2": 0.001,
@@ -218,6 +323,8 @@
       "_FresnelRimSmooth6": 0.001,
       "_FresnelRimSmooth7": 0.001,
       "_FresnelRimWidth": 2.0,
+      "_GlintColorBlend": 0.0,
+      "_GlintColorMultiExponent": 1.0,
       "_GlintDensity": 0.5,
       "_GlintIntensity": 0.5,
       "_GlintRandom": 0.0,
@@ -228,37 +335,56 @@
       "_GlintUVTillingY": 1.0,
       "_GlintViewFreq": 5.0,
       "_GlintWorldPosUV": 0.0,
-      "_GlossMapScale": 1.0,
-      "_Glossiness": 0.5,
-      "_GlossyReflections": 1.0,
-      "_IS_DUALFACE": 0.0,
+      "_HideCharaParts": 0.0,
       "_MatcapAlbedoBlendMode": 0.0,
       "_MatcapAlbedoBlendMultiFactor": 1.0,
       "_MatcapByShadowChannel": 1.0,
       "_MatcapBySpecularChannel": 0.0,
+      "_MatcapColorIntensity": 1.0,
       "_MatcapF0": 1.0,
+      "_MatcapID0ToAtlasID": 0.0,
+      "_MatcapID1BlendMode": 0.0,
+      "_MatcapID1ToAtlasID": 0.0,
+      "_MatcapID2BlendMode": 0.0,
+      "_MatcapID2ToAtlasID": 0.0,
+      "_MatcapID3BlendMode": 0.0,
+      "_MatcapID3ToAtlasID": 0.0,
+      "_MatcapID4BlendMode": 0.0,
+      "_MatcapID4ToAtlasID": 0.0,
+      "_MatcapID5BlendMode": 0.0,
+      "_MatcapID5ToAtlasID": 0.0,
+      "_MatcapID6BlendMode": 0.0,
+      "_MatcapID6ToAtlasID": 0.0,
+      "_MatcapID7BlendMode": 0.0,
+      "_MatcapID7ToAtlasID": 0.0,
       "_MatcapSelfShadowInfluence": 1.0,
       "_MatcapSelfShadowSmooth": 0.1,
       "_MatcapSelfShadowThreshold": 0.5,
       "_MatcapSize": 1.0,
-      "_Metallic": 0.0,
-      "_Mode": 0.0,
-      "_OcclusionStrength": 1.0,
+      "_MatcapTextureCount": 2.0,
+      "_NoiseOverlayBloom": 0.0,
+      "_NoiseScrPosRatioLock": 0.0,
+      "_NoiseScrPosScale": 1.0,
+      "_NoiseScrPosTex": 1.0,
+      "_NoiseScrPosXYOffset": 1.0,
+      "_NoiseUVMode": 1.0,
+      "_NormalMapStrength": 1.0,
+      "_OneMinusGlobalColorScale": 0.0,
+      "_OutlineExtdMax": 18.0,
+      "_OutlineExtdStart": 6.5,
       "_OutlineGrp": 0.0,
       "_OutlineOffset": 0.0,
       "_OutlinePolygonOffsetFactor": 0.0,
-      "_OutlinePolygonOffsetUnits": 0.0,
       "_OutlineWidth": 0.05,
-      "_PackedNormalTangentUint2": 0.0,
-      "_Parallax": 0.02,
+      "_PBRSpecularWithLightColor": 0.0,
       "_PolygonForwardOffsetFactor": -1.0,
       "_PolygonOffsetFactor": 0.0,
-      "_PolygonOffsetUnits": 0.0,
+      "_RampGrp": 0.0,
+      "_ReflectionCubeIntensity": 1.0,
       "_RenderQueueOffset": 0.0,
       "_RenderSettingGrp": 0.0,
       "_RenderType": 0.0,
       "_RimGroup": 0.0,
-      "_RimShadowCT": 1.0,
       "_RimShadowFeather0": 0.001,
       "_RimShadowFeather1": 0.001,
       "_RimShadowFeather2": 0.001,
@@ -268,7 +394,6 @@
       "_RimShadowFeather6": 0.001,
       "_RimShadowFeather7": 0.001,
       "_RimShadowGrp": 0.0,
-      "_RimShadowIntensity": 1.0,
       "_RimShadowWidth0": 1.0,
       "_RimShadowWidth1": 1.0,
       "_RimShadowWidth2": 1.0,
@@ -277,14 +402,18 @@
       "_RimShadowWidth5": 1.0,
       "_RimShadowWidth6": 1.0,
       "_RimShadowWidth7": 1.0,
-      "_RimWidth": 8.0,
       "_SelfShadowDarken": 0.6,
+      "_SelfShadowGrp": 0.0,
       "_SelfShadowSamplingOffset": 0.003,
+      "_SetItemGroup": 0.0,
       "_ShadowDitherAlpha": 1.0,
-      "_SmoothnessTextureChannel": 0.0,
+      "_ShadowStength": 1.0,
+      "_ShowPartID": 1.0,
+      "_SilkControlByLightmapB": 1.0,
+      "_SilkNormalPow": 1.0,
+      "_SilkOffset_X": 0.0,
+      "_SilkToonSoft": 0.025,
       "_SpecularGroup": 0.0,
-      "_SpecularHighlights": 1.0,
-      "_SrcBlend": 1.0,
       "_StencilComp": 8.0,
       "_StencilOP": 2.0,
       "_StencilRef": 64.0,
@@ -294,17 +423,109 @@
       "_StockingLightedWidth": 1.0,
       "_StockingTexIntensity": 1.0,
       "_StockingThickness": 0.0,
+      "_SuperAdvancedGrp": 0.0,
+      "_TangentRotate": 1.0,
       "_TextureGroup": 0.0,
-      "_UVSec": 0.0,
+      "_ToneMappingIntensity": 0.0,
+      "_UseAdvancedNoise": 0.0,
       "_UseGlint": 0.0,
+      "_UseGlintLightmapBControlSpecOff": 0.0,
       "_UseMainTexAlphaAsMatID": 0.0,
       "_UseMatcap": 0.0,
+      "_UseMatcapAtlas": 0.0,
+      "_UseMultiSilk": 0.0,
+      "_UseNormalMap": 0.0,
+      "_UseSilk": 0.0,
       "_UseUVMove": 0.0,
+      "_UseWaterIntersectionHighClip": 0.0,
       "_UsingDitherAlpha": 0.0,
+      "_VFXDissolveBlendType": 0.0,
+      "_VFXDissolveEdgeRange1": 0.0,
+      "_VFXDissolveEdgeRange2": 0.0,
+      "_VFXDissolveEdgeSmooth": 0.0,
+      "_VFXDissolveEdgeSmooth2": 0.0,
+      "_VFXDissolveEdgeTexBlend": 0.0,
+      "_VFXDissolveMaskChannel": 0.0,
+      "_VFXDissolveMaskIndex": 0.0,
+      "_VFXDissolveMaskIntensity": 0.75,
+      "_VFXDissolveMaskInvert": 0.0,
+      "_VFXDissolveMode": 0.0,
+      "_VFXDissolveRange": 0.0,
+      "_VFXDissolveSmoothness": 0.0,
+      "_VFXDissolveTexInverse": 0.0,
+      "_VFXDissolveUVAngle": 0.0,
+      "_VFXDissolveUVMode": 0.0,
+      "_WaterHeight": 0.0,
       "_ZTest": 4.0,
       "_ZWrite": 1.0
     },
     "m_Colors": {
+      "_AdvancedNoiseColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AdvancedNoiseColorRefineParams": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AdvancedNoiseTexMoveSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_AnisoColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID1": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID2": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID3": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID4": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID5": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID6": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_AnisoColorID7": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
       "_BackColor": {
         "r": 1.0,
         "g": 1.0,
@@ -359,23 +580,35 @@
         "b": 0.0,
         "a": 1.0
       },
-      "_Color": {
+      "_CharacterRainColorOffsetTint": {
         "r": 1.0,
         "g": 1.0,
         "b": 1.0,
         "a": 1.0
       },
-      "_DepthRimColor": {
-        "r": 0.78431374,
-        "g": 0.78431374,
-        "b": 0.78431374,
-        "a": 0.2901961
-      },
-      "_DepthRimParam": {
+      "_CharacterRainRunoffTex_ST": {
         "r": 1.0,
-        "g": 0.999,
+        "g": 1.0,
         "b": 0.0,
-        "a": 1.0
+        "a": 0.0
+      },
+      "_CharacterRainWetnessDropTex_ST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_CustomLightColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "_CustomLightDir": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 0.0
       },
       "_DissolveColor1": {
         "r": 0.0,
@@ -407,11 +640,23 @@
         "b": 0.0,
         "a": 0.0
       },
-      "_EmissionColor": {
+      "_FesColor": {
         "r": 0.0,
         "g": 0.0,
         "b": 0.0,
-        "a": 1.0
+        "a": 0.0
+      },
+      "_FlowMapMoveSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_FlowMapRGIntensity": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
       },
       "_FresnelRimColor0": {
         "r": 0.0,
@@ -467,6 +712,18 @@
         "b": 1.0,
         "a": 1.0
       },
+      "_GlintMask_ST": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_HeightOffsetOrient": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 0.0
+      },
       "_MainColor": {
         "r": 1.0,
         "g": 1.0,
@@ -477,6 +734,54 @@
         "r": 1.0,
         "g": 1.0,
         "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID1Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID2Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID3Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID4Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID5Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID6Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapID7Color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "_MatcapShadowColor": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       },
       "_OutlineColor0": {
@@ -498,9 +803,9 @@
         "a": 1.0
       },
       "_OutlineColor3": {
-        "r": 0.3063813,
-        "g": 0.39921758,
-        "b": 0.4811321,
+        "r": 0.16078432,
+        "g": 0.08235294,
+        "b": 0.015686275,
         "a": 1.0
       },
       "_OutlineColor4": {
@@ -532,102 +837,6 @@
         "g": 0.0,
         "b": 0.0,
         "a": 0.0
-      },
-      "_RimColor0": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimColor1": {
-        "r": 0.8679245,
-        "g": 0.61269957,
-        "b": 0.5772516,
-        "a": 1.0
-      },
-      "_RimColor2": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimColor3": {
-        "r": 0.29411763,
-        "g": 0.31527555,
-        "b": 0.35686272,
-        "a": 1.0
-      },
-      "_RimColor4": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimColor5": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimColor6": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimColor7": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimParam0": {
-        "r": 0.015,
-        "g": 0.05,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimParam1": {
-        "r": 0.1,
-        "g": 0.01,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_RimParam2": {
-        "r": 0.015,
-        "g": 0.1,
-        "b": 0.0,
-        "a": 0.5
-      },
-      "_RimParam3": {
-        "r": 0.1,
-        "g": 0.05,
-        "b": 3.0,
-        "a": 0.0
-      },
-      "_RimParam4": {
-        "r": 0.015,
-        "g": 0.1,
-        "b": 0.0,
-        "a": 0.5
-      },
-      "_RimParam5": {
-        "r": 0.015,
-        "g": 0.1,
-        "b": 0.0,
-        "a": 0.5
-      },
-      "_RimParam6": {
-        "r": 0.015,
-        "g": 0.1,
-        "b": 0.0,
-        "a": 0.5
-      },
-      "_RimParam7": {
-        "r": 0.015,
-        "g": 0.1,
-        "b": 0.0,
-        "a": 0.5
       },
       "_RimShadowColor0": {
         "r": 1.0,
@@ -677,54 +886,6 @@
         "b": 1.0,
         "a": 1.0
       },
-      "_RimShadowParam0": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam1": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam2": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam3": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam4": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam5": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam6": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
-      "_RimShadowParam7": {
-        "r": 1.0,
-        "g": 0.01,
-        "b": 0.0,
-        "a": 0.0
-      },
       "_SpecularColor0": {
         "r": 0.0,
         "g": 0.0,
@@ -744,15 +905,15 @@
         "a": 1.0
       },
       "_SpecularColor3": {
+        "r": 0.5849056,
+        "g": 0.29864752,
+        "b": 0.19588822,
+        "a": 0.0
+      },
+      "_SpecularColor4": {
         "r": 0.0,
         "g": 0.0,
         "b": 0.0,
-        "a": 1.0
-      },
-      "_SpecularColor4": {
-        "r": 0.9607843,
-        "g": 0.45098042,
-        "b": 0.4509804,
         "a": 1.0
       },
       "_SpecularColor5": {
@@ -762,63 +923,15 @@
         "a": 1.0
       },
       "_SpecularColor6": {
-        "r": 0.6320754,
-        "g": 0.47177887,
-        "b": 0.372686,
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
         "a": 1.0
       },
       "_SpecularColor7": {
         "r": 0.0,
         "g": 0.0,
         "b": 0.0,
-        "a": 1.0
-      },
-      "_SpecularParams0": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams1": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams2": {
-        "r": 10.0,
-        "g": 0.02,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams3": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams4": {
-        "r": 10.0,
-        "g": 0.153,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams5": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams6": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
-        "a": 1.0
-      },
-      "_SpecularParams7": {
-        "r": 10.0,
-        "g": 0.0,
-        "b": 1.0,
         "a": 1.0
       },
       "_StockingColor": {
@@ -830,6 +943,30 @@
       "_UVMoveSpeed": {
         "r": 0.0,
         "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VFXDissolveColor1": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_VFXDissolveColor2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "_VFXDissolveMoveSpeed": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "_VFXDissolveTex_ST": {
+        "r": 1.0,
+        "g": 1.0,
         "b": 0.0,
         "a": 0.0
       }
