@@ -129,7 +129,8 @@
         "rarity": 5,
         "directory": "hna/chars/Parayaya",
         "image": "hna/HNA/Parayaya.png",
-        "pmx": "Parayaya.pmx"
+        "pmx": "Parayaya.pmx",
+		"exception": true
     },
     {
         "id": 50000013,
