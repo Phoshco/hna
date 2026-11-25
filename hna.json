@@ -262,5 +262,27 @@
         "directory": "hna/chars/Breadhead",
         "image": "hna/HNA/Breadhead.png",
         "pmx": "Breadhead.pmx"
+    },
+	{
+        "id": 50000024,
+        "name": "Shilian",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 6,
+        "directory": "hna/chars/Shilian",
+        "image": "hna/HNA/Shilian.png",
+        "pmx": "Shilian.pmx"
+    },
+	{
+        "id": 50000025,
+        "name": "Bai Mei",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Bai Mei",
+        "image": "hna/HNA/Bai Mei.png",
+        "pmx": "Bai Mei.pmx"
     }
 ]
