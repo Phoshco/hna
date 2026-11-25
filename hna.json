@@ -1,6 +1,28 @@
 [
     {
+        "id": 50000000,
+        "name": "Nexus Master (Male)",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Male",
+        "rarity": 5,
+        "directory": "hna/chars/Nexus Master (Male)",
+        "image": "hna/HNA/Nexus Master (Male).png",
+        "pmx": "Nexus Master.pmx"
+    },
+	{
         "id": 50000001,
+        "name": "Nexus Master (Female)",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Nexus Master (Female)",
+        "image": "hna/HNA/Nexus Master (Female).png",
+        "pmx": "Nexus Master.pmx"
+    },
+	{
+        "id": 50000002,
         "name": "Argenti",
         "weaponType": "Universal",
         "element": "Universal",
@@ -11,7 +33,7 @@
         "pmx": "Argenti.pmx"
     },
     {
-        "id": 50000002,
+        "id": 50000003,
         "name": "Armand",
         "weaponType": "Universal",
         "element": "Universal",
@@ -22,8 +44,8 @@
         "pmx": "Armand.pmx"
     },
     {
-        "id": 50000003,
-        "name": "Blade",
+        "id": 50000004,
+        "name": "Blade (HNA)",
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
@@ -33,7 +55,7 @@
         "pmx": "Blade.pmx"
     },
     {
-        "id": 50000004,
+        "id": 50000005,
         "name": "Cassio Rollex",
         "weaponType": "Universal",
         "element": "Universal",
@@ -44,7 +66,7 @@
         "pmx": "Cassio Rollex.pmx"
     },
     {
-        "id": 50000005,
+        "id": 50000006,
         "name": "Hua",
         "weaponType": "Universal",
         "element": "Universal",
@@ -55,7 +77,7 @@
         "pmx": "Hua.pmx"
     },
     {
-        "id": 50000006,
+        "id": 50000007,
         "name": "Hungrille",
         "weaponType": "Universal",
         "element": "Universal",
@@ -66,7 +88,7 @@
         "pmx": "Hungrille.pmx"
     },
     {
-        "id": 50000007,
+        "id": 50000008,
         "name": "Jalily Belau",
         "weaponType": "Universal",
         "element": "Universal",
@@ -77,7 +99,7 @@
         "pmx": "Jalily Belau.pmx"
     },
     {
-        "id": 50000008,
+        "id": 50000009,
         "name": "Kiana",
         "weaponType": "Universal",
         "element": "Universal",
@@ -88,7 +110,7 @@
         "pmx": "Kiana.pmx"
     },
     {
-        "id": 50000009,
+        "id": 50000010,
         "name": "Kumyo Kyo",
         "weaponType": "Universal",
         "element": "Universal",
@@ -99,7 +121,7 @@
         "pmx": "Kumyo Kyo.pmx"
     },
     {
-        "id": 50000010,
+        "id": 50000011,
         "name": "Maple Manybell",
         "weaponType": "Universal",
         "element": "Universal",
@@ -110,7 +132,7 @@
         "pmx": "Maple Manybell.pmx"
     },
 	{
-        "id": 50000011,
+        "id": 50000012,
         "name": "Nanafey",
         "weaponType": "Universal",
         "element": "Universal",
@@ -121,7 +143,7 @@
         "pmx": "Nanafey.pmx"
     },
 	{
-        "id": 50000012,
+        "id": 50000013,
         "name": "Parayaya",
         "weaponType": "Universal",
         "element": "Universal",
@@ -129,11 +151,10 @@
         "rarity": 5,
         "directory": "hna/chars/Parayaya",
         "image": "hna/HNA/Parayaya.png",
-        "pmx": "Parayaya.pmx",
-		"exception": true
+        "pmx": "Parayaya.pmx"
     },
     {
-        "id": 50000013,
+        "id": 50000014,
         "name": "Parayaya, the Sovereign of Love and Hate",
         "weaponType": "Universal",
         "element": "Universal",
@@ -144,7 +165,7 @@
         "pmx": "Parayaya, the Sovereign of Love and Hate.pmx"
     },
     {
-        "id": 50000014,
+        "id": 50000015,
         "name": "Prabhas",
         "weaponType": "Universal",
         "element": "Universal",
@@ -155,7 +176,7 @@
         "pmx": "Prabhas.pmx"
     },
     {
-        "id": 50000015,
+        "id": 50000016,
         "name": "Sir Champion",
         "weaponType": "Universal",
         "element": "Universal",
@@ -166,7 +187,7 @@
         "pmx": "Sir Champion.pmx"
     },
 	{
-        "id": 50000016,
+        "id": 50000017,
         "name": "Gloria",
         "weaponType": "Universal",
         "element": "Universal",
@@ -177,7 +198,7 @@
         "pmx": "Gloria.pmx"
     },
 	{
-        "id": 50000017,
+        "id": 50000018,
         "name": "Juelle",
         "weaponType": "Universal",
         "element": "Universal",
@@ -188,7 +209,7 @@
         "pmx": "Juelle.pmx"
     },
 	{
-        "id": 50000018,
+        "id": 50000019,
         "name": "Hyperius",
         "weaponType": "Universal",
         "element": "Universal",
@@ -199,7 +220,7 @@
         "pmx": "Hyperius.pmx"
     },
 	{
-        "id": 50000019,
+        "id": 50000020,
         "name": "Louis Fleming Y",
         "weaponType": "Universal",
         "element": "Universal",
@@ -210,12 +231,34 @@
         "pmx": "Louis Fleming Y.pmx"
     },
 	{
-        "id": 5000001,
+        "id": 50000021,
+        "name": "Otto",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Male",
+        "rarity": 4,
+        "directory": "hna/chars/Otto",
+        "image": "hna/HNA/Otto.png",
+        "pmx": "Otto.pmx"
+    },
+	{
+        "id": 50000022,
+        "name": "Herocrates",
+        "weaponType": "Universal",
+        "element": "Universal",
+        "gender": "Female",
+        "rarity": 5,
+        "directory": "hna/chars/Herocrates",
+        "image": "hna/HNA/Herocrates.png",
+        "pmx": "Herocrates.pmx"
+    },
+	{
+        "id": 50000023,
         "name": "Breadhead",
         "weaponType": "Universal",
         "element": "Universal",
         "gender": "Male",
-        "rarity": 6,
+        "rarity": 4,
         "directory": "hna/chars/Breadhead",
         "image": "hna/HNA/Breadhead.png",
         "pmx": "Breadhead.pmx"
